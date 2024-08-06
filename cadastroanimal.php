@@ -27,20 +27,16 @@
             <br>
             <div>
                 <label for="data_nascimento">Data de Nascimento</label>
-                <input type="date" name="data" id="data">
+                <input type="date" name="data_nascimento" id="data_nascimento">
             </div>
             <br>
             <div>
-                <label for="ativo">Ativo</label>
-                <input type="checkbox" id="opcaosim" name="sim" value="sim">
-                <label for="opcaosim">Sim</label>
-
-                <input type="checkbox" id="opcaonao" name="nao" value="nao">
-                <label for="opcaonao">Não</label>
+                <label for="castrado">Situação</label>
+                <input type="hidden" name="castrado" id="castrado" value="0">
+                <input type="checkbox" id="castrado" name="castrado" value="1">Castrado
             </div>
+            <br>
             <div>
-                <label for="cidade">Cidade</label>
-                <select name="cidade" id="cidade">
                     <?php
 
                         include('includes/conexao.php');
