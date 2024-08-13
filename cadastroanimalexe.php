@@ -14,7 +14,7 @@
         $nome = $_POST['nome'];
         $especie = $_POST['especie'];
         $raca = $_POST['raca'];
-        $data_nascimento = $_POST['data'];
+        $data_nascimento = $_POST['data_nascimento'];
         $castrado = $_POST['castrado'];
 
         echo "<h1>Dados do animal</h1>";

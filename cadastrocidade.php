@@ -13,7 +13,7 @@
         <legend>Cadastro de Cidades</legend>
             <div>
             <label for="nome_cidade">Nome</label>
-            <input type="text" name="nome_cidade" id="nome_cidade">
+            <input type="text" name="nome" id="nome">
         </div>
         <br>
         <div>
